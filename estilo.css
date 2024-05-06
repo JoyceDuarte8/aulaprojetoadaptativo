@@ -1,0 +1,20 @@
+* {margin:0;padding:0}
+
+.clear {clear:both;}
+
+#left-sidebar {width:20%;background:rgb(168, 195, 255);float:left;}
+#content {width:50%;margin:0 5%;background:rgb(243, 212, 243);float:left;}
+#right-sidebar {width:20%;background:rgb(238, 153, 96);float:left;}
+
+@media screen and (max-width: 900px) {
+    #wrap {width:100%;}
+    #left-sidebar,#content,#right-sidebar {
+        width:100%;float:none;margin:0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #left-sidebar {display:none;}
+} 
+
+
